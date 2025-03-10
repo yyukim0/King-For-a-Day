@@ -45,7 +45,7 @@ namespace ProjetoPi
 
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            string senha = txtRequestSala.Text;
+            string senha = txtRequestSenha.Text;
             string partida = listBox1.SelectedItem.ToString();
             string[] dadosPartida = partida.Split(',');
 
@@ -76,17 +76,13 @@ namespace ProjetoPi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string senha = txtRequestSala.Text;
+            string senha = txtRequestSenha.Text;
             string nomeJogador = txtRequestNome.Text;
             int idPartida = Convert.ToInt32(txtRequestId.Text);
+            string idJogador = Jogo.Entrar(idPartida, nomeJogador, senha);
+            lblSenhaId.Text = idJogador;
 
-            //para mostrar as cartas
-            string jogadores = listBox2.SelectedItem.ToString(); //em teoria pega o jogador
-            string[] dadosJogador = jogadores.Split(','); //separa cada elemento entra as virgulas
-            lblCartas.Text = Jogo.ListarCartas(Convert.ToInt32(dadosJogador[0]), senha); //mostra na label das cartas qual a carta do jogador
-
-            Jogo.Entrar(idPartida, nomeJogador, senha);
-            this.Close();
+            //lblCartas.Text = Jogo.ListarCartas(Convert.ToInt32(idJogador, senha); //mostra na label das cartas qual a carta do jogador
         }
 
         //não tira esse método

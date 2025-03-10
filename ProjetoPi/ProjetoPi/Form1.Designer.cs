@@ -52,6 +52,7 @@
             txtRequestNome = new TextBox();
             lblPedirId = new Label();
             txtRequestId = new TextBox();
+            lblSenhaId = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -266,11 +267,21 @@
             txtRequestId.Size = new Size(100, 23);
             txtRequestId.TabIndex = 22;
             // 
+            // lblSenhaId
+            // 
+            lblSenhaId.AutoSize = true;
+            lblSenhaId.Location = new Point(507, 213);
+            lblSenhaId.Name = "lblSenhaId";
+            lblSenhaId.Size = new Size(38, 15);
+            lblSenhaId.TabIndex = 24;
+            lblSenhaId.Text = "label6";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblSenhaId);
             Controls.Add(lblPedirId);
             Controls.Add(txtRequestId);
             Controls.Add(lblPedirNome);
@@ -326,5 +337,6 @@
         private TextBox txtRequestNome;
         private Label lblPedirId;
         private TextBox txtRequestId;
+        private Label lblSenhaId;
     }
 }

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|solutionrelative:projetopi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|c:\\users\\bia\\source\\repos\\king-for-a-day\\projetopi\\projetopi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\projetopi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74E130CF-981E-43FD-B613-F3B8D0EDC27D}|ProjetoPi\\ProjetoPi.csproj|solutionrelative:projetopi\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -30,8 +30,8 @@
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\Form1.cs",
               "RelativeDocumentMoniker": "ProjetoPi\\Form1.cs",
-              "ToolTip": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\Form1.cs [Projeto]*",
-              "RelativeToolTip": "ProjetoPi\\Form1.cs [Projeto]*",
+              "ToolTip": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\Form1.cs [Projeto]",
+              "RelativeToolTip": "ProjetoPi\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T18:19:49.142Z",
               "EditorCaption": " [Projeto]"
@@ -54,9 +54,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\Form1.cs",
               "RelativeDocumentMoniker": "ProjetoPi\\Form1.cs",
-              "ToolTip": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\Form1.cs*",
-              "RelativeToolTip": "ProjetoPi\\Form1.cs*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAQwFUAAACNAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\Form1.cs",
+              "RelativeToolTip": "ProjetoPi\\Form1.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwE8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T16:47:29.492Z",
               "EditorCaption": ""
