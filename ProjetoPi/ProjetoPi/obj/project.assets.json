@@ -172,19 +172,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lfran\\.nuget\\packages\\": {}
+    "C:\\Users\\BIA\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lfran\\source\\repos\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
+      "projectUniqueName": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
       "projectName": "ProjetoPi",
-      "projectPath": "C:\\Users\\lfran\\source\\repos\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
-      "packagesPath": "C:\\Users\\lfran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lfran\\source\\repos\\ProjetoPi\\ProjetoPi\\obj\\",
+      "projectPath": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\ProjetoPi.csproj",
+      "packagesPath": "C:\\Users\\BIA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BIA\\source\\repos\\King-For-a-Day\\ProjetoPi\\ProjetoPi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lfran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

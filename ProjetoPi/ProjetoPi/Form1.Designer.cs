@@ -40,8 +40,18 @@
             button3 = new Button();
             button4 = new Button();
             label5 = new Label();
-            label6 = new Label();
+            lblCartas = new Label();
             button5 = new Button();
+            txtRequestSala = new TextBox();
+            lblPedirSala = new Label();
+            lblPedirSenha = new Label();
+            txtRequestSenha = new TextBox();
+            lblPedirGrupo = new Label();
+            txtRequestGrupo = new TextBox();
+            lblPedirNome = new Label();
+            txtRequestNome = new TextBox();
+            lblPedirId = new Label();
+            txtRequestId = new TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -156,25 +166,123 @@
             label5.TabIndex = 12;
             label5.Text = "label5";
             // 
-            // label6
+            // lblCartas
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(507, 218);
-            label6.Name = "label6";
-            label6.Size = new Size(38, 15);
-            label6.TabIndex = 13;
-            label6.Text = "label6";
+            lblCartas.AutoSize = true;
+            lblCartas.Location = new Point(649, 260);
+            lblCartas.Name = "lblCartas";
+            lblCartas.Size = new Size(38, 15);
+            lblCartas.TabIndex = 13;
+            lblCartas.Text = "label6";
             // 
             // button5
             // 
+            button5.Location = new Point(0, 0);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 23);
+            button5.TabIndex = 0;
+            // 
+            // txtRequestSala
+            // 
+            txtRequestSala.Location = new Point(64, 50);
+            txtRequestSala.Name = "txtRequestSala";
+            txtRequestSala.Size = new Size(100, 23);
+            txtRequestSala.TabIndex = 14;
+            txtRequestSala.TextChanged += textBox2_TextChanged;
+            // 
+            // lblPedirSala
+            // 
+            lblPedirSala.AutoSize = true;
+            lblPedirSala.Location = new Point(64, 32);
+            lblPedirSala.Name = "lblPedirSala";
+            lblPedirSala.Size = new Size(70, 15);
+            lblPedirSala.TabIndex = 15;
+            lblPedirSala.Text = "Dgite a sala:";
+            lblPedirSala.Click += label7_Click_1;
+            // 
+            // lblPedirSenha
+            // 
+            lblPedirSenha.AutoSize = true;
+            lblPedirSenha.Location = new Point(198, 32);
+            lblPedirSenha.Name = "lblPedirSenha";
+            lblPedirSenha.Size = new Size(84, 15);
+            lblPedirSenha.TabIndex = 17;
+            lblPedirSenha.Text = "Digite a senha:";
+            // 
+            // txtRequestSenha
+            // 
+            txtRequestSenha.Location = new Point(198, 50);
+            txtRequestSenha.Name = "txtRequestSenha";
+            txtRequestSenha.Size = new Size(100, 23);
+            txtRequestSenha.TabIndex = 16;
+            // 
+            // lblPedirGrupo
+            // 
+            lblPedirGrupo.AutoSize = true;
+            lblPedirGrupo.Location = new Point(339, 32);
+            lblPedirGrupo.Name = "lblPedirGrupo";
+            lblPedirGrupo.Size = new Size(86, 15);
+            lblPedirGrupo.TabIndex = 19;
+            lblPedirGrupo.Text = "Digite o grupo:";
+            lblPedirGrupo.Click += lblGrupo_Click;
+            // 
+            // txtRequestGrupo
+            // 
+            txtRequestGrupo.Location = new Point(339, 50);
+            txtRequestGrupo.Name = "txtRequestGrupo";
+            txtRequestGrupo.Size = new Size(100, 23);
+            txtRequestGrupo.TabIndex = 18;
+            // 
+            // lblPedirNome
+            // 
+            lblPedirNome.AutoSize = true;
+            lblPedirNome.Location = new Point(471, 32);
+            lblPedirNome.Name = "lblPedirNome";
+            lblPedirNome.Size = new Size(85, 15);
+            lblPedirNome.TabIndex = 21;
+            lblPedirNome.Text = "Digite o nome:";
+            lblPedirNome.Click += lblPedirNome_Click_1;
+            // 
+            // txtRequestNome
+            // 
+            txtRequestNome.Location = new Point(471, 50);
+            txtRequestNome.Name = "txtRequestNome";
+            txtRequestNome.Size = new Size(100, 23);
+            txtRequestNome.TabIndex = 20;
+            // 
+            // lblPedirId
+            // 
+            lblPedirId.AutoSize = true;
+            lblPedirId.Location = new Point(605, 32);
+            lblPedirId.Name = "lblPedirId";
+            lblPedirId.Size = new Size(65, 15);
+            lblPedirId.TabIndex = 23;
+            lblPedirId.Text = "Digite o ID:";
+            // 
+            // txtRequestId
+            // 
+            txtRequestId.Location = new Point(605, 50);
+            txtRequestId.Name = "txtRequestId";
+            txtRequestId.Size = new Size(100, 23);
+            txtRequestId.TabIndex = 22;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblPedirId);
+            Controls.Add(txtRequestId);
+            Controls.Add(lblPedirNome);
+            Controls.Add(txtRequestNome);
+            Controls.Add(lblPedirGrupo);
+            Controls.Add(txtRequestGrupo);
+            Controls.Add(lblPedirSenha);
+            Controls.Add(txtRequestSenha);
+            Controls.Add(lblPedirSala);
+            Controls.Add(txtRequestSala);
             Controls.Add(button5);
-            Controls.Add(label6);
+            Controls.Add(lblCartas);
             Controls.Add(label5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -206,7 +314,17 @@
         private Button button3;
         private Button button4;
         private Label label5;
-        private Label label6;
+        private Label lblCartas;
         private Button button5;
+        private TextBox txtRequestSala;
+        private Label lblPedirSala;
+        private Label lblPedirSenha;
+        private TextBox txtRequestSenha;
+        private Label lblPedirGrupo;
+        private TextBox txtRequestGrupo;
+        private Label lblPedirNome;
+        private TextBox txtRequestNome;
+        private Label lblPedirId;
+        private TextBox txtRequestId;
     }
 }

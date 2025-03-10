@@ -45,7 +45,7 @@ namespace ProjetoPi
 
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-
+            string senha = txtRequestSala.Text;
             string partida = listBox1.SelectedItem.ToString();
             string[] dadosPartida = partida.Split(',');
 
@@ -54,17 +54,15 @@ namespace ProjetoPi
             string data = dadosPartida[2];
 
             label1.Text = idPartida.ToString();
-            label2.Text = nomePartida;
+            label2.Text = senha;
             label3.Text = data;
-            label5.Text = "senhafoda";
-            label6.Text = "Carta não definida";
+            label5.Text = txtRequestSenha.Text;
+
+
+            //lblExibirCartas.Text = Jogo.ListarCartas(, senha);
 
             string retorno = Jogo.ListarJogadores(idPartida);
-            if (retorno.Substring(0, 4) == "ERRO")
-            {
-                MessageBox.Show("Ocorreu um erro:\n" + retorno.Substring(5), "NOSSO PI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
+
 
             retorno = retorno.Replace("\r", "");
             string[] jogadores = retorno.Split('\n');
@@ -78,8 +76,23 @@ namespace ProjetoPi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.idPartidaSelecionada = Convert.ToInt32(label1.Text);
+            string senha = txtRequestSala.Text;
+            string nomeJogador = txtRequestNome.Text;
+            int idPartida = Convert.ToInt32(txtRequestId.Text);
+
+            //para mostrar as cartas
+            string jogadores = listBox2.SelectedItem.ToString(); //em teoria pega o jogador
+            string[] dadosJogador = jogadores.Split(','); //separa cada elemento entra as virgulas
+            lblCartas.Text = Jogo.ListarCartas(Convert.ToInt32(dadosJogador[0]), senha); //mostra na label das cartas qual a carta do jogador
+
+            Jogo.Entrar(idPartida, nomeJogador, senha);
             this.Close();
+        }
+
+        //não tira esse método
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -87,11 +100,12 @@ namespace ProjetoPi
             this.Close();
         }
 
+
         private void button3_Click(object sender, EventArgs e)
         {
-            string nomePartida = "ospilantras"; 
-            string senha = "senhafoda";        
-            string grupo = "ScriptoresChartres"; 
+            string nomePartida = txtRequestSala.Text;
+            string senha = txtRequestSenha.Text;
+            string grupo = txtRequestGrupo.Text;
 
             string retorno = Jogo.CriarPartida(nomePartida, senha, grupo);
 
@@ -107,14 +121,14 @@ namespace ProjetoPi
                 label5.Text = $"Senha: {senha}";
 
                 MessageBox.Show("Partida criada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                ListarPartidas(); 
+                ListarPartidas();
             }
         }
-    
-            private void button4_Click(object sender, EventArgs e)
+
+        private void button4_Click(object sender, EventArgs e)
         {
-            string nomeJogador = "JogadorTeste"; 
-            int idPartida = Convert.ToInt32(label1.Text.Replace("ID: ", "")); 
+            string nomeJogador = txtRequestNome.Text;
+            int idPartida = Convert.ToInt32(label1.Text.Replace("ID: ", ""));
 
             string retorno = Jogo.Entrar(idPartida, nomeJogador, label5.Text.Replace("Senha: ", ""));
 
@@ -126,6 +140,31 @@ namespace ProjetoPi
             {
                 MessageBox.Show("Entrou na partida com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+        }
+
+        private void lblPedirNome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGrupo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPedirNome_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
