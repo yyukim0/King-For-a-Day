@@ -29,17 +29,42 @@
         private void InitializeComponent()
         {
             this.btnTransicao = new System.Windows.Forms.Button();
+            this.pnlLogo = new System.Windows.Forms.Panel();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTransicao
             // 
-            this.btnTransicao.Location = new System.Drawing.Point(290, 259);
+            this.btnTransicao.BackgroundImage = global::King_For_a_Day.Properties.Resources.imgJogar;
+            this.btnTransicao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTransicao.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTransicao.Location = new System.Drawing.Point(12, 153);
             this.btnTransicao.Name = "btnTransicao";
-            this.btnTransicao.Size = new System.Drawing.Size(75, 23);
+            this.btnTransicao.Size = new System.Drawing.Size(175, 54);
             this.btnTransicao.TabIndex = 0;
-            this.btnTransicao.Text = "button1";
             this.btnTransicao.UseVisualStyleBackColor = true;
             this.btnTransicao.Click += new System.EventHandler(this.btnTransicao_Click);
+            // 
+            // pnlLogo
+            // 
+            this.pnlLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pnlLogo.BackgroundImage = global::King_For_a_Day.Properties.Resources.logo;
+            this.pnlLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnlLogo.Location = new System.Drawing.Point(12, 12);
+            this.pnlLogo.Name = "pnlLogo";
+            this.pnlLogo.Size = new System.Drawing.Size(175, 122);
+            this.pnlLogo.TabIndex = 1;
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackgroundImage = global::King_For_a_Day.Properties.Resources.imgFechar;
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.Location = new System.Drawing.Point(12, 226);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(175, 54);
+            this.btnSair.TabIndex = 2;
+            this.btnSair.UseVisualStyleBackColor = true;
             // 
             // mainMenu
             // 
@@ -48,6 +73,8 @@
             this.BackgroundImage = global::King_For_a_Day.Properties.Resources.wallpaper;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(653, 343);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.pnlLogo);
             this.Controls.Add(this.btnTransicao);
             this.DoubleBuffered = true;
             this.Name = "mainMenu";
@@ -60,5 +87,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnTransicao;
+        private System.Windows.Forms.Panel pnlLogo;
+        private System.Windows.Forms.Button btnSair;
     }
 }

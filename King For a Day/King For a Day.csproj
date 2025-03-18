@@ -98,5 +98,17 @@
   <ItemGroup>
     <None Include="wallpaper.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgFechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgJogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoLobby.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

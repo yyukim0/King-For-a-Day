@@ -25,3 +25,17 @@ C:\Users\BIA\source\repos\King-For-a-Day\King For a Day\obj\Debug\King For.91C4D
 C:\Users\BIA\source\repos\King-For-a-Day\King For a Day\obj\Debug\King For a Day.exe
 C:\Users\BIA\source\repos\King-For-a-Day\King For a Day\obj\Debug\King For a Day.pdb
 C:\Users\BIA\source\repos\King-For-a-Day\King For a Day\obj\Debug\King_For_a_Day.mainMenu.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\bin\Debug\King For a Day.exe.config
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\bin\Debug\King For a Day.exe
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\bin\Debug\King For a Day.pdb
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\bin\Debug\KingMeServer.dll
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\bin\Debug\KingMeServer.xml
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King For a Day.csproj.AssemblyReference.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King_For_a_Day.Form1.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King_For_a_Day.mainMenu.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King_For_a_Day.Properties.Resources.resources
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King For a Day.csproj.GenerateResource.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King For a Day.csproj.CoreCompileInputs.cache
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King For.91C4DFB2.Up2Date
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King For a Day.exe
+C:\Users\vitor\OneDrive\Área de Trabalho\king2\King-For-a-Day\King For a Day\obj\Debug\King For a Day.pdb

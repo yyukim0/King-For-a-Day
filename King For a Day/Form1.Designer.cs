@@ -137,7 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::King_For_a_Day.Properties.Resources.wallpaper;
+            this.BackgroundImage = global::King_For_a_Day.Properties.Resources.fundoLobby;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(679, 349);
             this.Controls.Add(this.btnVoltar);
